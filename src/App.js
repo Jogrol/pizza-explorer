@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import PizzaListContainer from './components/PizzaListContainer'
 import PizzaDetailsContainer from './components/PizzaDetailsContainer'
+import AddPizzaFormContainer from './components/AddPizzaFormContainer'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <header className="App-header">
           <PizzaListContainer />
           <PizzaDetailsContainer />
+          <AddPizzaFormContainer />
         </header>
         
       </div>
